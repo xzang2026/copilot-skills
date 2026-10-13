@@ -13,10 +13,10 @@ Restart Copilot afterwards. To update, `git pull` and run `./install.sh` again.
 
 ## Skills
 
-Includes the original 10 (karpathy-guidelines, ponytail, ui-ux-pro-max, graphify, archify, impeccable, i-have-adhd, humanizer, diagram-design, book-to-skill) plus ruflo (SKILL.md only), teamai, context-mode (+ ctx-* skills) and the full marketingskills set (~50 skills). `i-have-adhd` is manual: `/i-have-adhd`.
+Includes 470 skills: the original 10, Ruflo (SKILL.md only), TeamAI, Context Mode and its `ctx-*` skills, the full Marketing Skills collection, plus the available skills from `affaan-m/ECC`, `humanlayer/skills`, `openai/plugins`, `mattpocock/skills` and `openai/skills`. `i-have-adhd` is manual: `/i-have-adhd`.
 
 Graphify also needs its CLI: `uv tool install graphifyy`.
 
 Skills come from their upstream repos; see each skill's own license.
 
-Note: ruflo, context-mode and teamai are front-ends for tools (npm packages/MCP servers) that must be installed separately.
+Note: Ruflo, Context Mode and TeamAI are front-ends for tools (npm packages/MCP servers) that must be installed separately. Graphify also needs its CLI. Those separate tools are not installed by `install.sh`.
