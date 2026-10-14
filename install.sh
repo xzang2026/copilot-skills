@@ -6,7 +6,7 @@ for dest in "$HOME/.copilot/skills" "$HOME/.agents/skills"; do
   mkdir -p "$dest"
   for s in "$here"/skills/*/; do
     rm -rf "$dest/$(basename "$s")"
-    cp -r "$s" "$dest/"
+    cp -r "${s%/}" "$dest/"
   done
 done
 echo "Installed $(ls "$here/skills" | wc -l) skills. Restart Copilot to load them."
